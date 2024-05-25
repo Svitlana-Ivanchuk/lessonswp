@@ -1,0 +1,322 @@
+# Translation of Plugins - SearchWP Live Ajax Search - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - SearchWP Live Ajax Search - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-25 22:03:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - SearchWP Live Ajax Search - Stable (latest release)\n"
+
+#: includes/class-notifications.php:162 includes/class-notifications.php:199
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: includes/class-notifications.php:297
+msgid "Dismiss"
+msgstr "Пропустити"
+
+#: includes/class-settings.php:1222
+msgid "Misc"
+msgstr "Різне"
+
+#: includes/class-settings.php:1282
+msgid "Hide Announcements"
+msgstr "Сховати оголошення"
+
+#: includes/class-settings.php:1299
+msgid "Check this option to hide plugin announcements and update details."
+msgstr "Оберіть цей пункт, щоб приховати оголошення та сповішення про оновлення."
+
+#: includes/class-settings.php:151 includes/class-settings.php:194
+msgid "Live Search"
+msgstr "Живий пошук"
+
+#: includes/class-menu.php:111
+msgid "SearchWP"
+msgstr "SearchWP"
+
+#: includes/class-menu.php:159 includes/class-settings.php:369
+msgid "Upgrade to Pro"
+msgstr "Оновити до Про"
+
+#: includes/class-plugin.php:286
+msgid "Upgrade to SearchWP Pro"
+msgstr "Оновити до SearchWP Pro"
+
+#: includes/Algorithm/EnginesPreview.php:96 includes/class-plugin.php:287
+#: includes/SearchForms/SearchFormsView.php:1597
+msgid "Get SearchWP Pro"
+msgstr "Отримати SearchWP Pro"
+
+#: includes/class-plugin.php:310
+msgid "Go to SearchWP Settings page"
+msgstr "Перейти до налаштувань SearchWP"
+
+#: includes/class-menu.php:67 includes/class-plugin.php:311
+#: includes/class-settings.php:246
+#: assets/gutenberg/build/search-forms/index.js:1
+#: assets/gutenberg/src/search-forms/edit.js:43
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/class-plugin.php:327
+msgid "Read the documentation"
+msgstr "Читати документацію"
+
+#: includes/class-plugin.php:328
+msgid "Docs"
+msgstr "Документація"
+
+#: includes/class-settings.php:281 includes/ModalForm/ModalFormPreview.php:162
+msgid "General"
+msgstr "Основне"
+
+#: includes/class-settings.php:305
+msgid "Enable Live Search"
+msgstr "Включити живий пошук"
+
+#: includes/class-settings.php:323
+msgid "Check this option to automatically enhance your search forms with Live Ajax Search."
+msgstr "Оберіть цю опцію, щоб автоматично покращувати ваші пошукові форми за допомогою Live Ajax Search."
+
+#. translators: %1$s - SearchWP.com URL, %2$s - SearchWP.com URL.
+#: includes/class-plugin.php:220
+msgid "<strong>SearchWP Live Ajax Search</strong><br><a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Personalize your search results</a> and discover what your visitors are searching for at the same time with <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">SearchWP Pro!</a>"
+msgstr "<strong>SearchWP Live Ajax Search</strong><br><a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Персоналізуйте результати пошуку</a> та дізнайтесь, що шукають ваші користувачі за допомогою <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">SearchWP Pro!</a>"
+
+#: includes/class-settings.php:978 includes/class-settings.php:1149
+msgid "Results"
+msgstr "Результати"
+
+#: includes/class-settings.php:1002 includes/ModalForm/ModalFormPreview.php:184
+msgid "Include Styling"
+msgstr "Включити стилі"
+
+#: includes/class-settings.php:1031 includes/ModalForm/ModalFormPreview.php:192
+msgid "Determines which CSS files to load and use for the site. \"Positioning and visual styling\" is recommended, unless you are experienced with CSS or instructed by support to change settings."
+msgstr "Визначає, які файли CSS завантажувати та використовувати для сайту. Рекомендується «Позиціонування та візуальне оформлення», якщо ви не маєте досвіду роботи з CSS або не отримали вказівки служби підтримки змінити це налаштування."
+
+#: includes/class-settings.php:1016 includes/ModalForm/ModalFormPreview.php:189
+msgid "Positioning and visual styling"
+msgstr "Позиціонування та візуальне оформлення"
+
+#: includes/class-settings.php:1020
+msgid "Positioning styling only"
+msgstr "Тільки позиціонування"
+
+#: includes/class-settings.php:1024
+msgid "No styling"
+msgstr "Без оформлення"
+
+#: includes/class-settings.php:1052
+msgid "Positioning"
+msgstr "Позиціонування"
+
+#: includes/class-settings.php:1078
+msgid "Selects where to position the results pane relative to the search form."
+msgstr "Оберіть де показувати результати пошуку відносно форми."
+
+#: includes/class-settings.php:1067
+msgid "Below the search form"
+msgstr "Під формою пошуку"
+
+#: includes/class-settings.php:1071
+msgid "Above the search form"
+msgstr "Над формою пошуку"
+
+#: includes/class-settings.php:1097
+msgid "Auto Width"
+msgstr "Автоматична ширина"
+
+#: includes/class-settings.php:1114
+msgid "Check this option to align the results pane width with the search form width."
+msgstr "Оберіть цю опцію, щоб вирівняти ширину форми пошуку та підказок."
+
+#: includes/ModalForm/ModalFormPreview.php:227
+msgid "Save Settings"
+msgstr "Зберегти налаштування"
+
+#: includes/Algorithm/EnginesPreview.php:95 includes/class-settings.php:1383
+#: includes/SearchForms/SearchFormsView.php:1596
+msgid "Get SearchWP Pro and Unlock all the Powerful Features"
+msgstr "Отримайте SearchWP Pro та розблокуйте всі преміальні функції"
+
+#: includes/class-settings.php:1384
+msgid "Thank you for being a loyal SearchWP Live Ajax Search user. Upgrade to SearchWP Pro to unlock all the powerful features and experience why SearchWP is the best WordPress search plugin."
+msgstr "Дякуємо за лояльність до SearchWP Live Ajax Search. Оновіть до SearchWP Pro, щоб розблокувати всі потужні функції та відчути, чому SearchWP — найкращий пошуковий плагін WordPress."
+
+#. translators: %s - star icons.
+#: includes/class-settings.php:1389
+msgid "We know that you will truly love SearchWP Pro. It’s used on over 30,000 smart WordPress websites and is consistently rated 5-stars (%s) by our customers."
+msgstr "Ми знаємо, що вам справді сподобається SearchWP Pro. Він використовується на понад 30 000 розумних веб-сайтах WordPress і постійно отримує 5 зірок (%s) від наших клієнтів."
+
+#: includes/class-settings.php:1401
+msgid "Pro Features:"
+msgstr "Про функції:"
+
+#: includes/Algorithm/EnginesPreview.php:113 includes/class-settings.php:1404
+#: includes/SearchForms/SearchFormsView.php:1613
+msgid "Search all custom field data"
+msgstr "Шукати усі користувацькі дані"
+
+#: includes/Algorithm/EnginesPreview.php:119 includes/class-settings.php:1405
+#: includes/SearchForms/SearchFormsView.php:1619
+msgid "Make ecommerce metadata discoverable in search results"
+msgstr "Зробіть метадані електронної комерції видимими в результатах пошуку"
+
+#: includes/Algorithm/EnginesPreview.php:117 includes/class-settings.php:1406
+#: includes/SearchForms/SearchFormsView.php:1617
+msgid "Search PDF, .doc, .txt and other static documents"
+msgstr "Шукати PDF, .doc, .txt та інші статичні документи"
+
+#: includes/class-settings.php:1407
+msgid "Search custom database tables and other custom content"
+msgstr "Шукати у користувацьких таблицях та контенті"
+
+#: includes/Algorithm/EnginesPreview.php:114 includes/class-settings.php:1408
+#: includes/SearchForms/SearchFormsView.php:1614
+msgid "Make your media library (images, videos, etc.) searchable"
+msgstr "Зробіть вашу медіа-бібліотеку (зображення, відео тощо) доступною для пошуку"
+
+#: includes/Algorithm/EnginesPreview.php:112 includes/class-settings.php:1411
+#: includes/SearchForms/SearchFormsView.php:1612
+msgid "Search categories, tags and even custom taxonomies"
+msgstr "Шукати категорії, теги та власні таксономії"
+
+#: includes/class-settings.php:1412
+msgid "Easy integration with all WordPress themes and page builders"
+msgstr "Легка інтеграція з усіма темами та конструкторами сторінок WordPress"
+
+#: includes/Algorithm/EnginesPreview.php:120 includes/class-settings.php:1413
+#: includes/SearchForms/SearchFormsView.php:1620
+msgid "Advanced search metrics and insights on visitor activity"
+msgstr "Розширені пошукові метрики та активність користувачів"
+
+#: includes/Algorithm/EnginesPreview.php:111 includes/class-settings.php:1414
+#: includes/SearchForms/SearchFormsView.php:1611
+msgid "Multiple custom search engines for different types of content"
+msgstr "Кілька користувальницьких пошукових систем для різних типів вмісту"
+
+#: includes/Algorithm/EnginesPreview.php:118 includes/class-settings.php:1415
+#: includes/SearchForms/SearchFormsView.php:1618
+msgid "WooCommerce & Easy Digital Downloads support"
+msgstr "Підтримка WooCommerce & Easy Digital Downloads"
+
+#: includes/class-settings.php:1418 includes/class-settings.php:1538
+msgid "Get SearchWP Pro Today"
+msgstr "Отримайте SearchWP Pro сьогодні"
+
+#: includes/class-settings.php:1418
+msgid "Get SearchWP Pro Today and Unlock all the Powerful Features"
+msgstr "Отримайте SearchWP Pro сьогодні та розблокуйте усі преміальні функції"
+
+#: includes/class-settings.php:1422 includes/class-settings.php:1542
+msgid "<strong>Bonus:</strong> SearchWP Live Ajax Search users get <span class=\"green\">50% off the regular price</span>, automatically applied at checkout!"
+msgstr "<strong>Бонус:</strong> користувачі SearchWP Live Ajax Search отримують <span class=\"green\">50% знижку</span>, яка додається автоматично!"
+
+#. translators: $1$s - SearchWP plugin name; $2$s - WP.org review link; $3$s -
+#. WP.org review link.
+#: includes/class-settings.php:1474
+msgid "Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a> to help us spread the word. Thank you from the SearchWP team!"
+msgstr "Оцініть %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> на сайті <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a>, щоб мотивувати команду SearchWP до подальших розробок!"
+
+#: includes/class-settings.php:1525
+msgid "Did You Know?"
+msgstr "Ви знали?"
+
+#: includes/class-settings.php:1529
+msgid "By default, WordPress doesn’t make all your content searchable. <strong><em>That’s frustrating</em></strong>, because it leaves your visitors unable to find what they are looking for!"
+msgstr "За замовчуванням, WordPress не робить ваш контент доступним до пошуку. <strong><em>Це жахливо</em></strong>, тому що користувачі не знаходять те, що їм треба!"
+
+#: includes/class-settings.php:1537
+msgid "With SearchWP Pro, you can overcome this obstacle and deliver the best, most relevant search results based on all your content, such as custom fields, ecommerce data, categories, PDF documents, rich media and more!"
+msgstr "За допомогою SearchWP Pro ви можете подолати цю перешкоду та надати найкращі, найрелевантніші результати пошуку на основі всього вашого вмісту, такого як настроювані поля, дані електронної комерції, категорії, PDF-документи, мультимедіа тощо!"
+
+#: includes/SearchForms/SearchFormsView.php:1059
+#: includes/SearchForms/SearchFormsView.php:1081
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. Plugin Name of the plugin
+#: searchwp-live-ajax-search.php
+msgid "SearchWP Live Ajax Search"
+msgstr "SearchWP Live Ajax Search"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: searchwp-live-ajax-search.php
+msgid "https://searchwp.com/"
+msgstr "https://searchwp.com/"
+
+#. Description of the plugin
+#: searchwp-live-ajax-search.php
+msgid "Enhance your search forms with live search, powered by SearchWP (if installed)"
+msgstr "Покращуйте свої пошукові форми за допомогою живого пошуку на основі SearchWP (якщо встановлено)"
+
+#. Author of the plugin
+#: searchwp-live-ajax-search.php
+msgid "SearchWP, LLC"
+msgstr "SearchWP, LLC"
+
+#: includes/class-form.php:286
+msgid "No valid SearchWP Live Search configuration found!"
+msgstr "Налаштування SearchWP Live Ajax Search відсутні!"
+
+#: includes/class-form.php:287
+msgid "When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."
+msgstr "Коли доступні результати автозаповнення, використовуйте стрілки вгору та вниз для перегляду та введення для переходу на потрібну сторінку. Користувачі сенсорних пристроїв, керуйте дотиком або за допомогою жестів."
+
+#: includes/class-form.php:532
+msgid "Continue typing"
+msgstr "Продовжіть вводити..."
+
+#: includes/class-widget.php:28 includes/class-widget.php:29
+msgid "SearchWP Live Search"
+msgstr "SearchWP Live Search"
+
+#: includes/class-widget.php:55 includes/class-widget.php:270
+msgid "Search for..."
+msgstr "Шукати..."
+
+#: includes/class-widget.php:116 includes/class-widget.php:196
+#: includes/SearchForms/Frontend.php:202
+#: includes/SearchForms/SearchFormsView.php:583
+#: includes/SearchForms/SearchFormsView.php:866
+msgid "Search"
+msgstr "Пошук"
+
+#: includes/class-widget.php:200
+msgid "Title:"
+msgstr "Назва:"
+
+#: includes/class-widget.php:225
+msgid "SearchWP Engine:"
+msgstr "Ядро SearchWP:"
+
+#: includes/class-widget.php:251
+msgid "Configuration:"
+msgstr "Конфігурація:"
+
+#: includes/class-widget.php:277
+msgid "Advanced"
+msgstr "Розширені"
+
+#: includes/class-widget.php:280
+msgid "Placeholder:"
+msgstr "Заповнювач:"
+
+#: includes/class-widget.php:284
+msgid "Destination fallback URL (optional):"
+msgstr "Резервний URL призначення (необов’язково):"
+
+#: includes/class-template.php:552
+msgid "No results found."
+msgstr "Нічого не знайдено."
+
+#: includes/class-widget.php:105
+msgid "Search for:"
+msgstr "Шукати:"

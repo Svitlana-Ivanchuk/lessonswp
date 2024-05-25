@@ -1,0 +1,223 @@
+[18-May-2024 10:35:19 UTC] PHP Parse error:  Unclosed '(' on line 6 does not match '}' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 10:35:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[18-May-2024 10:35:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[18-May-2024 10:35:55 UTC] PHP Parse error:  Unclosed '(' on line 6 does not match '}' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 10:37:20 UTC] PHP Parse error:  Unclosed '(' on line 6 does not match '}' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 10:38:20 UTC] PHP Parse error:  Unclosed '(' on line 6 does not match '}' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 10:39:21 UTC] PHP Parse error:  Unclosed '(' on line 6 does not match '}' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 10:40:22 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\functions.php on line 7
+[18-May-2024 11:22:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:26:18 UTC] PHP Fatal error:  Uncaught Error: Class "My_Walker_Nav_Menu" not found in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:69
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 69
+[18-May-2024 11:26:19 UTC] PHP Fatal error:  Uncaught Error: Class "My_Walker_Nav_Menu" not found in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:69
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 69
+[18-May-2024 11:26:19 UTC] PHP Fatal error:  Uncaught Error: Class "My_Walker_Nav_Menu" not found in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:69
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 69
+[18-May-2024 11:35:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:36:57 UTC] PHP Parse error:  Unclosed '(' on line 2 in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 4
+[18-May-2024 11:39:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:40:06 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:41:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:42:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:48:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:50:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:50:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 11:53:16 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-May-2024 12:06:20 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 49
+[18-May-2024 12:09:17 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 12:10:22 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 12:11:18 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 12:12:23 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 12:13:19 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 12:15:20 UTC] PHP Parse error:  syntax error, unexpected token "=>" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 92
+[18-May-2024 18:50:51 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:43:17 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:44:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:50:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:53:25 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:54:19 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:57:33 UTC] PHP Parse error:  Unclosed '{' on line 2 does not match ')' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 75
+[20-May-2024 13:57:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[20-May-2024 13:57:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[20-May-2024 13:57:33 UTC] PHP Parse error:  Unclosed '{' on line 2 does not match ')' in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\inc\site_properties.php on line 75
+[20-May-2024 13:58:15 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 13:59:57 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:00:06 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:02:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:03:27 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:04:22 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:06:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:06:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:15:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:15:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:22:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:27:29 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:28:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:28:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:30:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:32:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:35:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:36:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:42:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 14:44:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:10:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:12:47 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:16:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:18:39 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:21:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:21:39 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:24:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-May-2024 15:26:16 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 09:10:20 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:110
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:12:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:110
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:14:48 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:14:48 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:110
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#7 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:23 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:23 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:23 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:23 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:23 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 09:15:24 UTC] PHP Warning:  Undefined variable $search in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 110
+[23-May-2024 13:48:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:32
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php(32): preg_replace('/[^\\d]/', '+38(050)111-22-...')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\single.php(1): get_header()
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#7 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#8 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 32
+[23-May-2024 13:48:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:32
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php(32): preg_replace('/[^\\d]/', '+38(050)111-22-...')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#7 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#8 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 32
+[23-May-2024 13:48:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: preg_replace() expects at least 3 arguments, 2 given in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php:32
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php(32): preg_replace('/[^\\d]/', '+38(050)111-22-...')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(810): require_once('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template.php(745): load_template('C:\\Users\\isa_3\\...', true, Array)
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\index.php(2): get_header()
+#5 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#6 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#7 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#8 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\header.php on line 32
+[23-May-2024 13:50:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 13:51:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php on line 8 and at least 2 expected in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php(8): add_filter('the_title')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#4 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php on line 121
+[23-May-2024 13:51:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php on line 8 and at least 2 expected in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php(8): add_filter('the_title')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#4 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php on line 121
+[23-May-2024 13:53:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 13:54:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php on line 8 and at least 2 expected in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php(8): add_filter('the_title')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#4 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php on line 121
+[23-May-2024 13:55:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php on line 8 and at least 2 expected in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php(8): add_filter('the_title')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#4 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php on line 121
+[23-May-2024 13:55:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php on line 8 and at least 2 expected in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php:121
+Stack trace:
+#0 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-content\themes\chimper\page.php(8): add_filter('the_title')
+#1 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\isa_3\\...')
+#2 C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\isa_3\\...')
+#3 C:\Users\isa_3\Local Sites\lessonswp\app\public\index.php(17): require('C:\\Users\\isa_3\\...')
+#4 {main}
+  thrown in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\plugin.php on line 121
+[23-May-2024 14:08:38 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 14:11:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\isa_3\Local Sites\lessonswp\app\public\wp-includes\class-wp-customize-widgets.php on line 905
