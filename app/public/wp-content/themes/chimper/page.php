@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div class="container">
 <?php
 the_post();
 
@@ -15,5 +16,6 @@ add_filter('the_content', function ($content){
 
 the_content();
 ?>
+</div>
 
 <?php get_footer(); ?>

@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+<div class="site-blocks-cover overlay"  data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -20,7 +20,7 @@ get_header();
     </div>
 </div>
 
-
+<?php echo do_shortcode('[section_shortcode]'); ?>
 <section class="section ft-feature-1">
     <div class="container">
         <div class="row align-items-stretch">
@@ -34,7 +34,7 @@ get_header();
                                 </div>
                                 <h2>Welcome To Chimper An Awward Winning Web Agency</h2>
                             </div>
-                            <img src="images/about_1.jpg" alt="Image" class="img-feature img-fluid">
+                            <img src="images/about_1.jpg" alt="Image" class="img-feature img-fluid"/>
                         </div>
                     </div>
                     <div class="col-lg-3 ml-auto">
@@ -266,5 +266,14 @@ get_header();
         </div>
     </div>
 </a>
+    <form method="post" action="<?php echo admin_url('admin-post.php'); ?>">
+        <input type="hidden" name="action" value="save_custom_data"> <!--необходим для отправки формы в wp. без этой строки wp не будет обрабатывать форму-->
+        <?php wp_nonce_field('save_custom_data_nonce', 'save_custom_data_nonce'); ?> <!--создаем проверочный код-->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
 
 <?php get_footer(); ?>
